@@ -20,7 +20,7 @@ if [ -z "$BT_STATUS" ]; then
 fi
 
 # Play alarm2.wav through Bluetooth speaker - 20 times for ~30 seconds
-echo "Playing LOUD alarm (20 iterations)..." >> "$LOG_FILE"
+echo "Playing LOUD alarm (2 iterations)..." >> "$LOG_FILE"
 for i in {1..2}; do
     aplay -D bluealsa "$HOME/the-overseer/pi/audio/alarm2.wav" >> "$LOG_FILE" 2>&1
     echo "Play iteration $i completed" >> "$LOG_FILE"
