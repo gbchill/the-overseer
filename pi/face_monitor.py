@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import cv2 as cv #camera
 import threading #two threads
-import os  #audio command
+import os  #audio commandd
 import time #sleep
 import subprocess
 
